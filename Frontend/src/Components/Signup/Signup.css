@@ -1,0 +1,48 @@
+/* *{
+    overflow: hidden;
+} */
+.signup-main{
+    background-image: url("https://images.unsplash.com/photo-1563293815-7d1c589bd909?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 92.5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 20rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 7rem;
+}
+
+.card h2{
+    text-align: center;
+    color: #5d605b;
+}
+
+.inputs{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.button{
+    width: 80%;
+}
+
+.button button{
+    border-radius: 15px;
+    background-color: #1fb3e0;
+}

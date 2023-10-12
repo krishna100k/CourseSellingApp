@@ -1,0 +1,35 @@
+.appbar-main{
+    background-color: #eeeeee;
+    width: 100vw;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content h1{
+    text-decoration: none;
+    margin: 1%;
+    margin-left: 1%;
+    color: #5d506b;
+    cursor: pointer;
+}
+
+.buttons button{
+    margin: 0.2rem;
+}
+
+.buttons{
+    margin-right: 1%;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.username{
+    color: #5d506b;
+}

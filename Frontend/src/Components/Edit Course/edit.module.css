@@ -1,0 +1,68 @@
+.grayBorder {
+    width: 100vw;
+    background-color: rgb(29, 29, 29);
+    height: 15rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    gap: 20%
+}
+
+.rightDiv{
+
+    height: 33.5rem;
+}
+
+.leftDiv{
+
+    height: 33.5rem;
+}
+
+.card img{
+    width: 300px;
+    height: 200px;
+}
+
+.card{
+    background-color:white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-bottom: 2%;
+
+}
+
+.leftDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rightDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+
+.form input {
+    width: 20rem;
+}

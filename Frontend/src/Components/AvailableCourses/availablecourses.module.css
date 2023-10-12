@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: white;
+} */
+
+.card img{
+    width: 300px;
+    height: 200px;
+}
+
+.card{
+    background-color:white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-bottom: 2%;
+
+}
+
+.courses{
+    width: 82vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    gap: 2%;
+}
+
+.courseContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card button{
+    width: 20px;
+    position: relative;
+    bottom: -10px;
+    left: 250px;
+}
+  
+
+.grayBorder {
+    width: 100vw;
+    background-color: rgb(29, 29, 29);
+    height: 15rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courseContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 5rem;
+}
+
+
+.landing{
+    background-color: #eeeeee;
+    width: 100vw;
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+}
+
+.second img{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 20px;
+}
+
+.first h1{
+    color: #5d506b;
+}
