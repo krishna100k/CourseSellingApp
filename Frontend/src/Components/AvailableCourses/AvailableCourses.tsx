@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import styles from "./availablecourses.module.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
